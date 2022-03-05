@@ -1,0 +1,318 @@
+type = game
+name = "squish"
+size = [1900,1000]
+
+type = player
+name = "Yellow"
+color = 0xffff00
+pos = [200,762]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = player
+name = "Green"
+color = 0x00dd00
+pos = [1640,762]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = player
+name = "Orange"
+color = 0xffa500
+pos = [1340,692]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = player
+name = "Purple"
+color = 0xaa00ff
+pos = [380,144]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = player
+name = "Pink"
+color = 0xff8fd6
+pos = [500,692]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = player
+name = "Blue"
+color = 0x78edf7
+pos = [1460,144]
+size = [60,60]
+speed = 5
+acceleration = 1
+jump_strength = 15
+gravity = 25
+shield_health = 70
+shield_regen = 1
+
+type = block
+name = "background"
+color = 0xbbbbbb
+pos = [0,0]
+size = [1900,1000]
+solid = 0
+movable = 0
+gravity = 0
+
+type = block
+name = "1"
+color = 0x777777
+pos = [40,118]
+size = [16,155]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "2"
+color = 0x777777
+pos = [167,260]
+size = [16,161]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "3"
+color = 0x777777
+pos = [328,208]
+size = [186,23]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "4"
+color = 0x777777
+pos = [634,76]
+size = [24,220]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "5"
+color = 0x777777
+pos = [750,302]
+size = [145,53]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "6"
+color = 0x777777
+pos = [284,361]
+size = [101,41]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "7"
+color = 0x777777
+pos = [30,454]
+size = [17,336]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "8"
+color = 0x777777
+pos = [158,564]
+size = [56,40]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "9"
+color = 0x777777
+pos = [486,514]
+size = [165,53]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "10"
+color = 0x777777
+pos = [775,530]
+size = [18,152]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "11"
+color = 0x777777
+pos = [374,696]
+size = [23,130]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "12"
+color = 0x777777
+pos = [386,756]
+size = [265,71]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "13"
+color = 0x777777
+pos = [148,826]
+size = [1609,87]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "16"
+color = 0x777777
+pos = [1844,118]
+size = [16,155]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "17"
+color = 0x777777
+pos = [1717,260]
+size = [16,161]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "15"
+color = 0x777777
+pos = [1386,208]
+size = [186,23]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "14"
+color = 0x777777
+pos = [1242,76]
+size = [24,220]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "18"
+color = 0x777777
+pos = [1515,361]
+size = [101,41]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "22"
+color = 0x777777
+pos = [1853,454]
+size = [17,336]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "21"
+color = 0x777777
+pos = [1686,564]
+size = [56,40]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "20"
+color = 0x777777
+pos = [1249,514]
+size = [165,53]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "19"
+color = 0x777777
+pos = [1107,530]
+size = [18,152]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "23"
+color = 0x777777
+pos = [1503,696]
+size = [23,130]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "24"
+color = 0x777777
+pos = [1249,756]
+size = [265,71]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "25"
+color = 0x777777
+pos = [1005,302]
+size = [145,53]
+solid = 1
+movable = 0
+gravity = 0
+
+type = block
+name = "26"
+color = 0x777777
+pos = [945,448]
+size = [10,150]
+solid = 1
+movable = 0
+gravity = 0
